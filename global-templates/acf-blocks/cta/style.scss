@@ -1,0 +1,58 @@
+.cta-block {
+  width: 100%;
+  background: #fe6a0d repeat url("../../img/nkh-tile-gold.png");
+  padding: 90px 0;
+
+  &.last {
+    margin-bottom: 0;
+  }
+
+  .cta-text-wrap {
+    display: flex;
+    flex-direction: row;
+    max-width: 1256px;
+    margin: 0 auto;
+    align-items: center;
+
+    .cta-title {
+      font-family: Gotham, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 50px;
+      line-height: 120%;
+      color: #FFFFFF;
+    }
+
+    .cta-text {
+      width: 100%;
+
+      p {
+        padding: 0;
+        margin: 0;
+        font-family: Gotham, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 140%;
+        color: #FFFFFF;
+
+        @media (min-width: 768px) {
+          font-size: 30px;
+        }
+
+        .cta-underline {
+          text-decoration: underline;
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+    .cta-button {
+      padding: 10px 20px;
+      color: #FFF;
+      background: #383D44;
+    }
+  }
+}

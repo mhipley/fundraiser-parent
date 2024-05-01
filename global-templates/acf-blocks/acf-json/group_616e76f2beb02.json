@@ -1,0 +1,65 @@
+{
+    "key": "group_616e76f2beb02",
+    "title": "[block]Cta",
+    "fields": [
+        {
+            "key": "field_61b1047aef112",
+            "label": "No Margin",
+            "name": "no_margin",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "The CTA item can be dropped anywhere on page, but in some instances you may need no margin on bottom (like last item on page)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "No Bottom Margin",
+            "ui_off_text": "Has Bottom Margin"
+        },
+        {
+            "key": "field_616e7708e08d3",
+            "label": "Text",
+            "name": "text",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/cta"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "modified": 1714594604
+}

@@ -1,0 +1,118 @@
+.four-cards {
+
+  h2 {
+    font-family: Gotham, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+    letter-spacing: -1px;
+    color: #000;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 3%;
+
+    .cards-item {
+      display: flex;
+      border: 1px solid #D1CDC8;
+      width: 100%;
+      margin-bottom: 3%;
+
+      @media(min-width: 576px) {
+        width: 48%;
+      }
+
+      .card {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+
+        .card-content {
+          display: flex;
+          flex: 1 1 auto;
+          flex-direction: column;
+          padding: 0 1.5rem 4rem;
+          position: relative;
+
+          @media(min-width: 768px) {
+            padding: 0 3rem 4rem;
+          }
+        }
+
+        .card-image {
+          width: 100%;
+          margin-bottom: 30px;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .card-logo {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          img {
+            margin-bottom: 0;
+            max-height: 70px;
+            object-fit: contain;
+          }
+        }
+
+        h3 {
+          font-family: Gotham, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%;
+          color: #383d44;
+          margin: 33px 0;
+
+          @media(min-width: 576px) {
+            font-size: 30px;
+          }
+        }
+
+        p {
+          flex: 1 1 auto;
+          width: 100%;
+          font-family: Gotham, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 17px;
+          line-height: 140%;
+          color: #83868b;
+          padding: 0;
+          margin: 0;
+        }
+
+        .card-link {
+          position: absolute;
+          bottom: 10px;
+          right: 15px;
+
+          svg {
+            fill: white;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+              fill: darken(white, 5%);
+            }
+          }
+        }
+      }
+    }
+  }
+}

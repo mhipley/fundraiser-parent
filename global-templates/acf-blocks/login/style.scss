@@ -1,0 +1,132 @@
+.login-block {
+
+  .login-wrap {
+
+    p {
+      text-align: center;
+      padding: 0 2% 30px;
+
+      @media(min-width: 576px) {
+        padding: 0 5% 40px;
+      }
+
+      @media(min-width: 768px) {
+        padding: 0 10% 60px;
+      }
+    }
+
+    .login-cards {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      @media(min-width: 768px) {
+        margin-bottom: 60px;
+      }
+
+      .cards {
+        display: inline-flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 3%;
+        justify-content: center;
+
+        .cards-item {
+          display: flex;
+          border: 1px solid #D1CDC8;
+          width: 100% !important;
+          margin-bottom: 3%;
+
+          @media(min-width: 576px) {
+            width: 48% !important;
+          }
+
+          @media(min-width: 768px) {
+            width: 31% !important;
+          }
+
+          .card {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            border: 1px solid #D1CDC8;
+            margin: 2px;
+            width: 100%;
+
+            .card-content {
+              display: flex;
+              flex: 1 1 auto;
+              flex-direction: column;
+              padding: 50px 25px;
+              position: relative;
+              justify-content: center;
+
+            }
+
+            h3 {
+              font-family: Gotham, sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 120%;
+              color: #393D43;
+              margin: 0;
+              text-align: center;
+              padding-left: 20px;
+              padding-right: 20px;
+
+              @media(min-width: 576px) {
+                font-size: 30px;
+              }
+            }
+
+            .login-btn {
+              padding: 10px 30px;
+              margin: 25px 0 15px;
+              background: #FE6A0D;
+              color: #ffffff;
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              text-transform: uppercase;
+              transition: opacity ease-in-out 0.2s;
+              width: 100%;
+              font-weight: 600;
+
+              &:hover {
+                opacity: 0.8;
+              }
+
+              &.blue {
+                background: #83AA55;
+              }
+
+              &.green {
+                background: #48C0E7;
+              }
+            }
+
+            .register-link {
+              font-size: 14px;
+              text-align: center;
+
+              span {
+                color: #393D43;
+              }
+
+              a {
+                color: #fe6a0d;
+                font-weight: 600;
+                border-bottom: 1px solid #fe6a0d;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

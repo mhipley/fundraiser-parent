@@ -1,11 +1,11 @@
 /*
-Theme Name: Understrap
-Theme URI: https://understrap.com
-Author: Howard Development &amp; Consulting
-Author URI: https://howarddc.com
-GitHub Theme URI: https://github.com/understrap/understrap
-Description: The renowned WordPress starter theme framework that combined Underscores and Bootstrap. Trusted by more than 100,000 developers for building handcrafted, custom WordPress sites.
-Version: 1.2.4
+Theme Name: Fundraising Parent
+Theme URI: https://github.com/mhipley/fundraiser-parent
+Author: TOOD Digital
+Author URI: https://itstodo.digital/
+GitHub Theme URI: https://github.com/mhipley/fundraiser-parent
+Description: Parent theme for SOS microsites.
+Version: 1.0
 Requires at least: 5.0
 Tested up to: 6.1
 Requires PHP: 5.2
@@ -18,6 +18,7 @@ Understrap WordPress Theme, (C) 2021 Howard Development & Consulting, LLC
 Understrap is distributed under the terms of the GNU GPL.
 
 Resource Licenses:
+This theme is based on Understrap.
 Understrap is based on Underscores https://underscores.me/, (C) Automattic, Inc.
 Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
 Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
@@ -25,6 +26,5 @@ WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/t
 */
 
 /*
-Do not modify the parent Understrap theme. Instead, download a copy of the Understrap Child starter theme and do all your development within the child theme.
-Full developer documentation: https://docs.understrap.com
+Do not modify the parent theme unless you wish to make updates to the entire network of SOS microsites. Instead, download a copy of the child starter theme and do all your development within the child theme (https://github.com/mhipley/fundraising-child).
 */

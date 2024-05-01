@@ -1,0 +1,80 @@
+{
+    "key": "group_61cbf1446e974",
+    "title": "[block] Campaign resources",
+    "fields": [
+        {
+            "key": "field_61cbf14c0eb22",
+            "label": "Description",
+            "name": "description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "This field is for the description text next to the related resources section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_61cbf1990eb23",
+            "label": "Related Resources",
+            "name": "related_resources",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "resource"
+            ],
+            "taxonomy": [
+                "Campaign Resource:bake-sale",
+                "Campaign Resource:birthday-event",
+                "Campaign Resource:chefs-cycle",
+                "Campaign Resource:get-creative",
+                "Campaign Resource:endurance-event",
+                "Campaign Resource:friendsgiving",
+                "Campaign Resource:stream-for-no-kid-hungry"
+            ],
+            "filters": [
+                "taxonomy"
+            ],
+            "elements": "",
+            "min": "",
+            "max": "",
+            "return_format": "object",
+            "bidirectional_target": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/cpt-campaign-resources"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "modified": 1714594604
+}

@@ -1,0 +1,83 @@
+.faq-buttons {
+  padding: 70px 0 50px 0;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+
+  @media(min-width: 768px) {
+    padding: 70px 0;
+  }
+
+  .faq-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media(min-width: 768px) {
+      flex-wrap: nowrap;
+    }
+
+    .faq-card {
+      background: #FFFFFF;
+      flex-basis: 100%;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 40px;
+
+      @media(min-width: 768px) {
+        flex-basis: 33.33333%;
+        margin-right: 20px;
+        padding: 30px;
+        margin-bottom: 0;
+      }
+
+      @media(min-width: 992px) {
+        margin-right: 30px;
+        padding: 50px;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 120%;
+        text-align: center;
+        color: #383D44;
+        margin-top: 0;
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 140%;
+        text-align: center;
+        color: #83868B;
+        margin-top: 0;
+      }
+
+      a {
+        padding: 10px 30px;
+        background: #FE6A0D;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 600;
+        align-self: end;
+
+        &.blue {
+          background: #83AA55;
+        }
+
+        &.green {
+          background: #48C0E7;
+        }
+      }
+    }
+  }
+}
