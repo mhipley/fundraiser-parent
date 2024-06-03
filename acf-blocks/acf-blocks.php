@@ -22,7 +22,7 @@ function my_acf_blocks_init()
         'description' => __('Add Cta'),
         'render_template' => 'acf-blocks/cta/cta.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/cta/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'megaphone',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -37,7 +37,7 @@ function my_acf_blocks_init()
         'description' => __('Add Big Cta'),
         'render_template' => 'acf-blocks/big-cta/big-cta.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/big-cta/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'megaphone',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -53,7 +53,7 @@ function my_acf_blocks_init()
         'render_template' => 'acf-blocks/countdown/countdown.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/countdown/style.css',
         'enqueue_script' => get_template_directory_uri() . '/acf-blocks/countdown/countdown.js',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'clock',
         'supports' => array('align' => array('full')),
     ));
@@ -65,7 +65,7 @@ function my_acf_blocks_init()
         'description' => __('Add Featured Cards'),
         'render_template' => 'acf-blocks/featured-cards/featured-cards.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/featured-cards/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'columns',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -80,7 +80,7 @@ function my_acf_blocks_init()
         'description' => __('Add FAQ buttons'),
         'render_template' => 'acf-blocks/faq-buttons/faq-buttons.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/faq-buttons/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'lightbulb',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -95,7 +95,7 @@ function my_acf_blocks_init()
         'description' => __('Add Link List'),
         'render_template' => 'acf-blocks/link-list/link-list.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/link-list/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'admin-links',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -110,7 +110,7 @@ function my_acf_blocks_init()
         'description' => __('Add Image And Text'),
         'render_template' => 'acf-blocks/image-and-text/image-and-text.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/image-and-text/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'id-alt',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -125,7 +125,7 @@ function my_acf_blocks_init()
         'description' => __('Add Our Sponsors'),
         'render_template' => 'acf-blocks/our-sponsors/our-sponsors.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/our-sponsors/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'megaphone',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -140,7 +140,7 @@ function my_acf_blocks_init()
         'description' => __('Add Resource Filter'),
         'render_template' => 'acf-blocks/resource-filter/resource-filter.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/resource-filter/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'filter',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -155,7 +155,7 @@ function my_acf_blocks_init()
         'description' => __('Add Four Cards'),
         'render_template' => 'acf-blocks/four-cards/four-cards.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/four-cards/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'screenoptions',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -170,7 +170,7 @@ function my_acf_blocks_init()
         'description' => __('Add CTA Counter'),
         'render_template' => 'acf-blocks/cta-counter/cta-counter.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/cta-counter/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'megaphone',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -185,7 +185,7 @@ function my_acf_blocks_init()
         'description' => __('Add Partners'),
         'render_template' => 'acf-blocks/partners/partners.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/partners/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'images-alt2',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -200,7 +200,7 @@ function my_acf_blocks_init()
         'description' => __('Add Basic Copy'),
         'render_template' => 'acf-blocks/copy-block/copy-block.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/copy-block/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'text-page',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -215,7 +215,7 @@ function my_acf_blocks_init()
         'description' => __('Add Fund Raiser Cards'),
         'render_template' => 'acf-blocks/fund-raiser-cards/fund-raiser-cards.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/fund-raiser-cards/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'screenoptions',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -230,7 +230,7 @@ function my_acf_blocks_init()
         'description' => __('Add Log In'),
         'render_template' => 'acf-blocks/login/login.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/login/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'universal-access-alt',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -245,7 +245,7 @@ function my_acf_blocks_init()
         'description' => __('Add Story'),
         'render_template' => 'acf-blocks/stories/stories.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/stories/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'screenoptions',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -260,7 +260,7 @@ function my_acf_blocks_init()
         'description' => __('Add Copy Area'),
         'render_template' => 'acf-blocks/copy-area/copy-area.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/copy-area/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'text-page',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -275,7 +275,7 @@ function my_acf_blocks_init()
         'description' => __('Add CPT Resource Loop'),
         'render_template' => 'acf-blocks/cpt-resource-loop/cpt-resource-loop.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/cpt-resource-loop/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'list-view',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -290,7 +290,7 @@ function my_acf_blocks_init()
         'description' => __('Add CPT Resource Loop w/Filter'),
         'render_template' => 'acf-blocks/cpt-resource-loop-filter/cpt-resource-loop-filter.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/cpt-resource-loop-filter/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'list-view',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -305,7 +305,7 @@ function my_acf_blocks_init()
         'description' => __('Add Five Cards'),
         'render_template' => 'acf-blocks/five-cards/five-cards.php',
         'enqueue_style' => get_template_directory_uri() . '/acf-blocks/five-cards/style.css',
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'screenoptions',
         'supports' => array(
             'align' => array('wide', 'full'),
@@ -320,8 +320,24 @@ function my_acf_blocks_init()
         'description' => __('Add CPT Campaign Related Resource'),
         'render_template' => 'acf-blocks/cpt-campaign-resources/cpt-campaign-resources.php',
         // stylesheet is folded into the theme at sass/layouts/_campaign.scss
-        'category' => 'NKH-Patterns',
+        'category' => 'Template-Patterns',
         'icon' => 'list-view',
+        'supports' => array(
+            'align' => array('wide', 'full'),
+            'jsx' => true
+        ),
+        'align' => 'wide',
+    ));
+
+
+    acf_register_block_type(array(
+        'name' => 'cover',
+        'title' => __('Cover'),
+        'description' => __('Add a cover with headings and a background.'),
+        'render_template' => 'acf-blocks/cover/cover.php',
+        'enqueue_style' => get_template_directory_uri() . '/acf-blocks/cover/style.css',
+        'category' => 'Template-Patterns',
+        'icon' => 'cover-image',
         'supports' => array(
             'align' => array('wide', 'full'),
             'jsx' => true
@@ -401,10 +417,10 @@ add_theme_support('custom-spacing');
 add_theme_support('custom-units');
 
 // Take out core Gutenberg Blocks by not allowing them
-add_filter('allowed_block_types', 'nkh_allowed_block_types');
+add_filter('allowed_block_types', 'template_allowed_block_types');
 
 // Now add in only what you need
-function nkh_allowed_block_types($allowed_blocks)
+function template_allowed_block_types($allowed_blocks)
 {
   return array(
       'core/block',
@@ -433,22 +449,23 @@ function nkh_allowed_block_types($allowed_blocks)
       'acf/login',
       'acf/stories',
       'acf/copy-area',
-      'acf/cpt-campaign-resources'
+      'acf/cpt-campaign-resources',
+      'acf/cover'
   );
 }
 
 // Add custom block category
-function nkh_category($categories, $post)
+function template_category($categories, $post)
 {
   return array_merge(
       $categories,
       array(
           array(
-              'slug' => 'NKH-Patterns',
-              'title' => __('NKH-Patterns', 'nkh-patterns'),
+              'slug' => 'Template-Patterns',
+              'title' => __('Template Patterns', 'template-patterns'),
           ),
       )
   );
 }
 
-add_filter('block_categories', 'nkh_category', 10, 2);
+add_filter('block_categories', 'template_category', 10, 2);
